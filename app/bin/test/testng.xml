@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Qtrip Test Suite">
+    <test name="API Tests">
+        <groups>
+            <run>
+                <include name="API Tests"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="qtriptest.APITests.testCase_API_01"/>
+            <class name="qtriptest.APITests.testCase_API_02"/>
+            <class name="qtriptest.APITests.testCase_API_03"/>
+            <class name="qtriptest.APITests.testCase_API_04"/> <!-- Include your new test case -->
+            <!-- Include other API test classes here -->
+        </classes>
+    </test>
+</suite>

@@ -33,9 +33,13 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.2'
-    testImplementation 'io.rest-assured:rest-assured:5.2.0'
-    testImplementation 'io.rest-assured:json-schema-validator:4.3.3'
+   
+
+    testImplementation 'io.rest-assured:rest-assured:5.5.0'
+    testImplementation 'io.rest-assured:json-schema-validator:5.5.0'
     implementation 'org.json:json:20171018'
+
+
 
 
 
@@ -51,6 +55,7 @@ application {
 test {
     useTestNG() {
         useDefaultListeners = true // generates the test report
+         suites 'src/test/resources/testng.xml'
     }
      afterSuite { desc, result ->
             if (!desc.parent) {

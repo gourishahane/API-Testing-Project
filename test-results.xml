@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-02T20:21:16 IST" name="Qtrip Test Suite" finished-at="2024-11-02T20:21:32 IST" duration-ms="16184">
+    <groups>
+      <group name="API Tests">
+        <method signature="testCase_API_01.verifyUserRegistrationAndLogin()[pri:0, instance:qtriptest.APITests.testCase_API_01@4e5ed836]" name="verifyUserRegistrationAndLogin" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_02.verifyCitySearchResults()[pri:0, instance:qtriptest.APITests.testCase_API_02@5745ca0e]" name="verifyCitySearchResults" class="qtriptest.APITests.testCase_API_02"/>
+        <method signature="testCase_API_03.verifyReservationCreation()[pri:0, instance:qtriptest.APITests.testCase_API_03@3ad83a66]" name="verifyReservationCreation" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_04.verifyDuplicateUserRegistration()[pri:0, instance:qtriptest.APITests.testCase_API_04@3cce5371]" name="verifyDuplicateUserRegistration" class="qtriptest.APITests.testCase_API_04"/>
+      </group> <!-- API Tests -->
+    </groups>
+    <test started-at="2024-11-02T20:21:16 IST" name="API Tests" finished-at="2024-11-02T20:21:32 IST" duration-ms="16184">
+      <class name="qtriptest.APITests.testCase_API_01">
+        <test-method signature="verifyUserRegistrationAndLogin()[pri:0, instance:qtriptest.APITests.testCase_API_01@4e5ed836]" started-at="2024-11-02T20:21:16 IST" name="verifyUserRegistrationAndLogin" finished-at="2024-11-02T20:21:24 IST" duration-ms="7338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserRegistrationAndLogin -->
+      </class> <!-- qtriptest.APITests.testCase_API_01 -->
+      <class name="qtriptest.APITests.testCase_API_02">
+        <test-method signature="verifyCitySearchResults()[pri:0, instance:qtriptest.APITests.testCase_API_02@5745ca0e]" started-at="2024-11-02T20:21:24 IST" name="verifyCitySearchResults" finished-at="2024-11-02T20:21:25 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCitySearchResults -->
+      </class> <!-- qtriptest.APITests.testCase_API_02 -->
+      <class name="qtriptest.APITests.testCase_API_03">
+        <test-method signature="verifyReservationCreation()[pri:0, instance:qtriptest.APITests.testCase_API_03@3ad83a66]" started-at="2024-11-02T20:21:25 IST" name="verifyReservationCreation" finished-at="2024-11-02T20:21:30 IST" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReservationCreation -->
+      </class> <!-- qtriptest.APITests.testCase_API_03 -->
+      <class name="qtriptest.APITests.testCase_API_04">
+        <test-method signature="verifyDuplicateUserRegistration()[pri:0, instance:qtriptest.APITests.testCase_API_04@3cce5371]" started-at="2024-11-02T20:21:30 IST" name="verifyDuplicateUserRegistration" finished-at="2024-11-02T20:21:32 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicateUserRegistration -->
+      </class> <!-- qtriptest.APITests.testCase_API_04 -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Qtrip Test Suite -->
+</testng-results>
