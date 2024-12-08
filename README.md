@@ -43,6 +43,6 @@ The project covers end-to-end API testing, including user registration, city sea
 
 ## Contact Information
 - Name: Gouri Shahane
-- Email: gouri.shahane@example.com
+- Email: gourishahane@gmail.com
 - GitHub: github.com/gourishahane
 - LinkedIn: linkedin.com/in/gourishahane
